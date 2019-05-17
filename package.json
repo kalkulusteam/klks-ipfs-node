@@ -1,0 +1,40 @@
+{
+  "name": "scrypta-ipfs",
+  "version": "1.0.0",
+  "description": "IPFS tool for Scrypta IdANodes",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "file-type": "^10.11.0",
+    "formidable": "^1.2.1",
+    "http": "0.0.0",
+    "ipfs": "^0.35.0",
+    "unzip": "^0.1.11"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scryptachain/scrypta-ipfs.git"
+  },
+  "keywords": [
+    "ipfs",
+    "scrypta"
+  ],
+  "author": "turinglabs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scryptachain/scrypta-ipfs/issues"
+  },
+  "homepage": "https://github.com/scryptachain/scrypta-ipfs#readme"
+}
